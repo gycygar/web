@@ -1,0 +1,191 @@
+  
+    body {
+      background-color: #f9f1e9;
+      
+        overflow-x: hidden;
+        
+      font-family: Arial, sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, fantasy;
+      }
+      h1{
+          font-size: 800-large;
+          font-size: 600%;
+          font-family: Georgia;
+          color:hsl(8, 19%, 23%)
+      }
+      h2 {
+        color: #044b1e;
+      }
+      
+      h3 {
+        color: #0a641f;
+      }
+      
+      img {
+        margin: 50px;
+        width: 50%
+       ;
+      }
+      
+      form {
+        margin-bottom: 20px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+        color: #636e72;
+      }
+      
+    
+      p {
+        color: #636e72;
+        margin-bottom: 10px;
+      }
+      
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+      
+      ul li {
+        margin-bottom: 5px;
+      }
+      
+      a {
+        color: #e17055;
+        text-decoration: none;
+      }
+  
+  
+      header {
+        width: 100%;
+        height: 560px; /* Cambia este valor según tus necesidades */
+        background: #f9f1e9;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #0a7e14a6, hsla(118, 90%, 95%, 0.664)), url(img/fondo2.png);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #64e96775, #0689279c), url(img/fondo2.png);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        position: relative;
+    }
+    
+      
+      header .textos-header{
+          display: flex;
+          height: 430px;
+          width: 100%;
+          align-items: center;
+
+          flex-direction: column;
+          text-align: center;
+      }
+      
+      .textos-header h1{
+          font-size: 100px;
+          color:#fff;
+          margin-top: 110px;
+      }
+      
+
+      
+      .wave{
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+      }
+      
+      /* About us */
+      
+      main .sobre-nosotros{
+          padding: 30px 0 60px 0;
+      }
+      .contenedor-sobre-nosotros{
+          display: flex;
+          justify-content: space-evenly;
+      }
+      
+      .imagen-about-us{
+          width: 48%;
+      }
+      
+      .sobre-nosotros .contenido-textos{
+          width: 48%;
+      }
+      
+      .contenido-textos h3{
+          margin-bottom: 15px;
+      }
+      
+      .contenido-textos h3 span{
+          background: #4d0686;
+          color: #fff;
+          border-radius: 50%;
+          display: inline-block;
+          text-align: center;
+          width: 30px;
+          height: 30px;
+          padding: 2px;
+          box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+          margin-right: 5px;
+      }
+      
+      .contenido-textos p{
+          padding: 0px 0px 30px 15px;
+          font-weight: 300;
+          text-align: justify;
+      }
+      
+      
+
+      .notes {
+        font-size: 12px;
+        color: #888;
+        margin-bottom: 20px;
+      }
+  
+      .Tituloflan {
+        text-align: center;
+      }
+
+      table {
+        margin: 20px 0;
+        border-collapse: collapse;
+      }
+
+      th, td {
+        padding: 8px;
+        text-align: center;
+        border: 1px dashed #ee940d;
+      }
+
+      .Creditos{
+        background-color: #ee940dc2;
+
+      }
+
+      .Creditos h3{
+        color: #963700;
+      }
+
+      .Creditos p{
+        color: #000000;
+      }
+      div {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+      .Creditos {
+        background: linear-gradient(to right, #e9dc9075, #f989019c);
+        width: 100%;
+        text-align: center}
+
+        ol.Creditos {
+          margin: 0;
+          padding: 0;
+          text-align: center;
+        }
+        
+        
+        

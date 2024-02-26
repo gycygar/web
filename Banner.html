@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Banner</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 110%;
+      overflow: hidden;
+    }
+
+    body {
+      background: linear-gradient(to right, #04882375, #8cfc9d9c);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .animated-shadow {
+      color: #f9f1e9;
+      font: normal 50px Varela Round, Georgia;
+      letter-spacing: 40px;
+      text-align: center;
+      text-transform: uppercase;
+      animation: move linear 2000ms infinite;
+      z-index: 2;
+    }
+
+    @keyframes move {
+      0% {
+        text-shadow: 4px -4px 0 #31ec5c, 3px -3px 0 #0ca723, 2px -2px 0 #006709, 1px -1px 0 #18a52b, -4px 4px 0 #077c40, -3px 3px 0 #00fa25, -2px 2px 0 #027514, -1px 1px 0 #00fa4f;
+      }
+      25% {
+        text-shadow: -4px -4px 0 #00fa21, -3px -3px 0 #02560d, -2px -2px 0 #0f2c00, -1px -1px 0 #23ce40, 4px 4px 0 #32f242, 3px 3px 0 #07ff56, 2px 2px 0 rgba(35, 238, 17, 0.333)55, 1px 1px 0 #0df75f;
+      }
+      50% {
+        text-shadow: -4px 4px 0 #40ca12, -3px 3px 0 #366a03, -2px 2px 0 #006709, -1px 1px 0 #18a52b, 4px -4px 0 #077c40, 3px -3px 0 #00fa25, 2px -2px 0 #027514, 1px -1px 0 #0df75f;
+      }
+      75% {
+        text-shadow: 4px 4px 0 #14f414, 3px 3px 0 #025f19, 2px 2px 0 #006709, 1px 1px 0 #18a52b, -4px -4px 0 #077c40, -3px -3px 0 #00fa25, -2px -2px 0 #027514, -1px -1px 0 #0df75f;
+      }
+      100% {
+        text-shadow: 4px -4px 0 #256b05, 3px -3px 0 #61fc07, 2px -2px 0 #006709, 1px -1px 0 #18a52b, -4px 4px 0 #077c40, -3px 3px 0 #00fa25, -2px 2px 0 #027514, -1px 1px 0 #0df75f;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="animated-shadow">Tarjetas sostenibles</h1>
+  <audio src="IMG/Audio.mp3" autoplay="autoplay" loop="loop"></audio>
+</body>
+</html>
